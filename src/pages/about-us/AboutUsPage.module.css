@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.banner_container {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../../static/images/aktravels_banner_mobile.jpg');
+  height: 300px;
+  background-clip: content-box;
+  background-size: 100% auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .banner_container {
+    height: 600px;
+    background-image: url('../../static/images/aktravels_banner.jpg');
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+  }
+}
+
+.item2 {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .item2 {
+    max-width: 40%;
+  }
+}
+
+.heading {
+  padding-top: 25px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.content {
+  font-size: 1.06rem;
+  line-height: 30px;
+}
+
+.content_img {
+  width: 100%;
+}

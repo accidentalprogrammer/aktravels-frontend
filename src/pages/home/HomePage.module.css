@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.items {
+  
+}
+
+.banner_container {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../../static/images/aktravels_banner_mobile.jpg');
+  height: 300px;
+  background-clip: content-box;
+  background-size: 100% auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .banner_container {
+    height: 600px;
+    background-image: url('../../static/images/aktravels_banner.jpg');
+  }
+}

@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,100);
+  gap: 20px;
+  height: 9vh;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.branding {
+  color: #1a1a1e;
+  font-size: 1.2rem;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.menu_link {
+  color: #28303d;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu_link:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.spacer_edge {
+  flex-grow: 1;
+  max-width: 10%;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}

@@ -3,6 +3,7 @@
     "HOME": "/home",
     "LOGIN": "/login",
     "ABOUT_US": "/about_us",
-    "CONTACT_US": "/contact_us"
+    "CONTACT_US": "/contact_us",
+    "FLEET": "/fleet"
 }
   

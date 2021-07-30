@@ -1,0 +1,81 @@
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.outer_container {
+  margin: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+  .outer_container {
+    display: flex;
+    flex-grow: 0.5;
+    max-width: 400px;
+    margin: 0%;
+  }
+}
+
+.heading {
+  line-height: 44px;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.heading2 {
+  line-height: 44px;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.item {
+  display: flex;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.pin_icon {
+  color: white;
+  margin-left: 15px;
+}
+
+.address {
+  color: white;
+  margin-left: 25px;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.phone_icon {
+  color: white;
+  margin-left: 15px;
+}
+
+.phone_number {
+  color: white;
+  margin-left: 25px;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.mail_icon {
+  color: white;
+  margin-left: 15px;
+}
+
+.mail_id {
+  color: white;
+  margin-left: 25px;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.social_icon {
+  color: white;
+  margin-left: 15px;
+}
